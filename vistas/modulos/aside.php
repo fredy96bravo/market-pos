@@ -9,7 +9,7 @@
      <!-- Brand Logo -->
      <a href="index.php" class="brand-link">
          <img src="vistas/assets/dist/img/CHJUNIOS-LOGO.png" alt="AdminLTE Logo" class="brand-image" style="opacity: .7">
-         <span class="brand-text font-weight-light">CHJUNIOR-BOUTIQUE</span>
+         <span class="brand-text font-weight-light">CHJUNIOR-Boutique</span>
      </a>
 
     <div class="user-panel mt-3 pb-3 mb-3 d-flex">
