@@ -230,8 +230,22 @@
         $('#lstVentas tbody').on('click','.btnEliminarVenta',function(){
            
             var nroBoleta = $(this).attr("nroBoleta");
-           
-            $.ajax({
+
+            Swal.fire({
+            title: 'Está seguro de eliminar el producto?',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Si, deseo eliminarlo!',
+            cancelButtonText: 'Cancelar',
+        }).then((result) => {
+
+            if (result.isConfirmed) {
+
+                //var datos = new FormData();          
+
+                $.ajax({
                 url:"ajax/ventas.ajax.php",
                 type: "POST",
                 data: {accion : '3',Boleta: String(nroBoleta)},
@@ -250,6 +264,11 @@
 
                 }
             });
+
+            }
+        })
+           
+            
         });
 
         /* ============================================================

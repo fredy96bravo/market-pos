@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="vistas/assets/dist/css/adminlte.min.css">
 </head>
 
+
+
 <body class="hold-transition login-page">
 
     <div class="login-box">

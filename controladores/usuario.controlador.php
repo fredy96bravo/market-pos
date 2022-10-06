@@ -30,7 +30,7 @@ class UsuarioControlador{
                     <script>
                         fncSweetAlert(
                             "error",
-                            "Usuario y/o contraseña inválida",
+                            "Usuario y/o contraseña incorrecto",
                             "http://localhost/market-pos/"
                         );
                     </script>
